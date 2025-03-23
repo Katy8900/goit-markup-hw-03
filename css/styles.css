@@ -143,11 +143,13 @@ a {
 }
 
 .conteiner-feauteres {
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .feauters {
+  display: flex;
+  gap: 24px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .feauter-title {
@@ -182,22 +184,34 @@ a {
   margin-bottom: 72px;
 }
 
+img {
+  background: url("path_to_image");
+}
+
+.our-team-list {
+  width: calc(1128px - 72px) / 4;
+  display: flex;
+}
+
 .teams-list {
-  background-color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 32px;
-  border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
-  width: 264px;
-  height: 380px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
+  border-radius: 0 0 4px 4px;
+  margin-right: 24px;
 }
 
 .names-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+  padding: 32px 16px;
 }
 
 .ourteam-title {
@@ -222,7 +236,26 @@ a {
   padding-bottom: 120px;
 }
 .portfolio-img {
-  background: url("path_to_image");
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.portfolio-menu {
+}
+
+.box-text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  padding: 32px 16px;
+  width: 360px;
+  height: 120px;
 }
 
 .portfolio-title-our {
@@ -251,6 +284,18 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.conteiner-footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.conteiner-logo {
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 0px;
+}
 
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -260,6 +305,7 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  line-height: 24px;
 }
 
 .studio-end {
@@ -276,6 +322,7 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  width: 264px;
 }
 ul {
   list-style-type: none;
