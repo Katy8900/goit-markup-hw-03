@@ -48,8 +48,6 @@ body {
 }
 
 .header-menu-nav {
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .contacts-all {
@@ -92,6 +90,8 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
   line-height: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .menu-list-nav:hover,
@@ -208,8 +208,6 @@ img {
 }
 
 .img-ourteam {
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .our-team {
@@ -240,7 +238,8 @@ img {
   justify-content: center;
   flex-direction: column;
   gap: 8px;
-  padding: 32px 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .ourteam-title {
