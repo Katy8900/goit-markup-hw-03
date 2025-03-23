@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-  width: 1158px;
+  max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -26,22 +26,23 @@ body {
   display: block;
   align-items: center;
   margin-right: 76px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
 .nav {
   display: flex;
   align-items: center;
-  flex-direction: row;
 }
 
 .header-menu {
   display: flex;
+  align-items: center;
   gap: 40px;
   list-style: none;
   padding: 0;
@@ -55,7 +56,6 @@ body {
   gap: 40px;
   list-style: none;
   align-items: center;
-  white-space: nowrap;
 }
 
 .header-web {
@@ -64,6 +64,7 @@ body {
 
 .contacts-nav {
   font-style: normal;
+  margin-left: auto;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -72,6 +73,9 @@ body {
 }
 
 .tel-mail {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -84,6 +88,7 @@ body {
   color: #404bbf;
 }
 .menu-list-nav {
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -110,6 +115,8 @@ body {
   display: flex;
   justify-content: center;
   margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .solutions {
   background: #2e2f42;
@@ -135,6 +142,8 @@ body {
   min-width: 169px;
   height: 56px;
   border: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .btn-service {
@@ -360,7 +369,7 @@ img {
 }
 ul {
   list-style-type: none;
-  padding-left: 0;
+  padding: 0;
   margin: 0;
 }
 .our-team {
