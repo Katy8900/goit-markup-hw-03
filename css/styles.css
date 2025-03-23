@@ -207,6 +207,11 @@ img {
   background: url("path_to_image");
 }
 
+.img-ourteam {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .our-team {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -245,6 +250,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .ourteam-text {
   font-weight: 400;
